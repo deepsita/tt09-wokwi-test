@@ -8,13 +8,15 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-Explain how your project works
+This is a simple 8x3 encoder which encodes eight inputs into 3 outputs.
 
 ## How to test
 
-Explain how to use your project
+The logical equations are as below,
+OUT0=IN4+IN5+IN6+IN7
+OUT1=IN2+IN3+IN6+IN7
+OUT2=IN1+IN3+IN5+IN7
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+NA
